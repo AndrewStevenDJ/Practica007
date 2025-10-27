@@ -1,10 +1,16 @@
 name: todos_repository
-description: A repository that handles todo related requests.
+description: A repository that manages todo items.
 version: 0.1.0+1
 publish_to: none
 
 environment:
   sdk: ^3.9.0
+
+dependencies:
+  todos_api:
+    path: ../todos_api
+  local_storage_todos_api:
+    path: ../local_storage_todos_api
 
 dev_dependencies:
   mocktail: ^1.0.4
