@@ -19,7 +19,7 @@ dependencies:
   json_annotation: ^4.9.0
   local_storage_todos_api:
     path: packages/local_storage_todos_api
-  meta: ^1.16.0
+  meta: ^1.17.0
   todos_api:
     path: packages/todos_api
   todos_repository:
